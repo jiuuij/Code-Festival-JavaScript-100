@@ -5,7 +5,7 @@
 
 var nums = [100, 200, 300, 400, 500];
 
-영상 풀이1
+//영상 풀이1
 nums.pop();
 nums.pop();
 console.log(nums);

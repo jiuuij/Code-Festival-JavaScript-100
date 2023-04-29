@@ -5,20 +5,21 @@
 
 var nums = [100, 200, 300, 400, 500];
 
-//영상 풀이1
-nums.pop();
-nums.pop();
-console.log(nums);
 
-/**나의 풀이2
+/**나의 풀이1
 console.log(nums.slice(0,3));
 
-/**나의 풀이3
+/**나의 풀이2
  * nums.splice(3,5);
  * console.log(nums);
  */
 
-/**나의 풀이4
+/**나의 풀이3
  * nums.splice(3);
  * console.log(nums);
  */
+
+//영상 풀이
+nums.pop();
+nums.pop();
+console.log(nums);

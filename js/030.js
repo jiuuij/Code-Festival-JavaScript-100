@@ -10,6 +10,7 @@ apple
 4
 
 >>나의 풀이
+//https://hianna.tistory.com/379 참고해서 풀었다!
 const data = prompt('문자열을 입력해주세요.');
 const word = prompt('찾을 문자를 입력해주세요.');
 const result = data.indexOf(word)

@@ -29,6 +29,19 @@ function solution(a,b){
     const day = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
 
     const x = new Date('2020-'+a+'-'+b);
+    //const theDay = new Date()
     return day[x.getDay()];
 }
 console.log(solution(month, date));
+
+>>영상답안
+const day = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
+const month = "5";
+const date = "5";
+
+function solution(a,b) {
+    const theDay = new Date(`2020-${a}-${b}`);
+    console.log(day[theDay.getDay()]);
+}
+
+solution(month,date);

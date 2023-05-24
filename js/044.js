@@ -14,18 +14,23 @@
 출력 : 24
 
 >>나의 풀이
+//하나씩 하라면 split을 써야겠다라고 생각했다..! 그러다가 아래의 블로그를 보고,, toString이 낫다는것을 알았다..!
 //https://developer-sj.tistory.com/18
-const num = '18234'.split("");
-const sum = for(i=0, i>=i.length, i++){
-}
-console.log(num)
-
-var answer = 0;
-    var m=String(n);
-  for(var i=0; i<m.length; i++){
-        answer+=parseInt(m[i]);
-    }
-    return answer;
+// const num = '18234'.split("");
+// const sum = '';
+// for(let i=0, i>=i.length, i++){
+//     num+= sum(i);
+// }
+// console.log(sum)
 
 
 >>답안
+let n = prompt('숫자를 입력하세요.');
+let sum = 0;
+
+while(n !== 0){
+  sum += (n % 10);
+  n = Math.floor(n/10);
+}
+
+console.log(sum);

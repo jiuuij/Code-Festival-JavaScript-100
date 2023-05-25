@@ -33,7 +33,7 @@ for (let j = 0; j < concatenatedString.length; j++) {
   sum += parseInt(concatenatedString.charAt(j));
 }
 
-console.log('모든 자릿수의 총 합:', sum);
+console.log(sum);
 
 
 

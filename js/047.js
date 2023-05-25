@@ -15,7 +15,7 @@ const people = {
   };
 
 >>나의 답안
-//이해는 했는데 이렇게 저렇게 해봐도 답이 나오지 않는다...
+//이해는 했는데 이렇게 저렇게 해봐도 답이 나오지 않는다...set도 공부해야즤,,,,ㅠㅠㅠㅠ
 const people = {
   이호준: "01050442903",
   이호상: "01051442904",
@@ -25,7 +25,7 @@ const people = {
   이호: "01050443904",
   이호준: "01050442903"
 };
-const result = new Set();
+const result = new Set(people);
 const newPeople = [...set];
 console.log(newPeople);
 
